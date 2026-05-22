@@ -21,15 +21,15 @@ function getPassword() {
     password.value = newPassword;
     setTimeout(() => {
         
-        alert("Password berhasil disamarkan jok")
+        alert("Password berhasil disamarkan")
     }, 1000);
 }
 
 function savePassword() {
     document.title = password.value;
-    saveButton.setAttribute("href","data:text/plain;charset=utf-8," + encodeURIComponent("password saya : " + document.title + "\n\nini passwordnya jok ku dijamin aman"));
+    saveButton.setAttribute("href","data:text/plain;charset=utf-8," + encodeURIComponent("password saya : " + document.title + "\n\nini passwordnya dijamin aman"));
     saveButton.setAttribute("download", "password.txt");
     setTimeout(() => {
-        alert("Password berhasil disimpan jok,jangan gunakan passwordnya untuk akun bokep ya!!!");
+        alert("Password berhasil disimpan ");
     }, 1000);
 }
